@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: StockPress
- * Plugin URI:
- * Description:
+ * Plugin URI:  https://github.com/nicfusc/stockpress
+ * Description: Add stock information to your WordPress Site
  * Version:     0.1.0
  * Author:      Nic Fusciardi
  * Text Domain: stockpress

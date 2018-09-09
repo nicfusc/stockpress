@@ -43,11 +43,11 @@ module.exports = {
 	watchPhp: './**/*.php', // Path to all PHP files.
 
 	// Translation options.
-	textDomain: 'WPGULP', // Your textdomain here.
-	translationFile: 'WPGULP.pot', // Name of the translation file.
+	textDomain: 'stockpress', // Your textdomain here.
+	translationFile: 'stockpress.pot', // Name of the translation file.
 	translationDestination: './languages', // Where to save the translation files.
-	packageName: 'WPGULP', // Package name.
-	bugReport: 'https://AhmadAwais.com/contact/', // Where can users report bugs.
+	packageName: 'StockPress', // Package name.
+	bugReport: 'https://github.com/nicfusc/stockpress/issues', // Where can users report bugs.
 	lastTranslator: 'Ahmad Awais <your_email@email.com>', // Last translator Email ID.
 	team: 'AhmadAwais <your_email@email.com>', // Team's Email ID.
 
