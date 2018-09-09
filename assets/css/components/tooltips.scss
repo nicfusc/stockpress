@@ -1,0 +1,47 @@
+/* Tooltip container */
+.stockpress-tip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+
+  .stockpress-tip-content {
+    visibility: hidden;
+    width: 120px;
+    background-color: #fff;
+    color: #222;
+    text-align: center;
+    padding: 5px 0;
+    border: 1px solid #999;
+    border-top: 4px solid #1e6abc;
+
+    /* Position the stockpress-tip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in stockpress-tip */
+    opacity: 0;
+    transition: opacity 0.3s;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #999 transparent transparent transparent;
+    }
+
+  }
+
+
+
+  &:hover .stockpress-tip-content {
+    visibility: visible;
+    opacity: 1;
+  }
+}
