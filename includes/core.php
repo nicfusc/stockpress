@@ -9,11 +9,10 @@ class Core {
 		$this->styles();
 		$this->scripts();
 
-
 	}
 
 	private function styles() {
-		wp_enqueue_style( 'stockpress', STOCKPRESS_URL . '/style.css', [] , STOCKPRESS_VERSION);
+		wp_enqueue_style( 'stockpress', STOCKPRESS_URL . '/style.css', [], STOCKPRESS_VERSION );
 	}
 
 

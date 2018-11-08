@@ -6,24 +6,22 @@ class IEX_Rest_Client {
 
 	private $http;
 
-	public static function create()
-	{
-		return new self( _wp_http_get_object(), self::$base_url );
+	public static function create() {
+		$client = new self( _wp_http_get_object(), self::$base_url );
+
+		return $client;
 	}
 
-	public function __construct(WP_Http $http, $base_url)
-	{
-		$this->http = $http;
+	public function __construct( WP_Http $http, $base_url ) {
+		$this->http     = $http;
 		$this->base_url = $base_url;
 	}
 
-	public function get( $endpoint ){
+	public function get( $endpoint ) {
 
 		$url = self::$base_url . $endpoint;
 
 		$response = $this->http->get( $url );
-
-		$response_array = json_decode($response['body'], true);
 
 		return $response;
 

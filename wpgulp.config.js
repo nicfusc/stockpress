@@ -48,8 +48,8 @@ module.exports = {
 	translationDestination: './languages', // Where to save the translation files.
 	packageName: 'StockPress', // Package name.
 	bugReport: 'https://github.com/nicfusc/stockpress/issues', // Where can users report bugs.
-	lastTranslator: 'Ahmad Awais <your_email@email.com>', // Last translator Email ID.
-	team: 'AhmadAwais <your_email@email.com>', // Team's Email ID.
+	lastTranslator: 'Nic Fusciardi <nicfusc@email.com>', // Last translator Email ID.
+	team: 'Nic Fusciardi <nicfusc@email.com>', // Team's Email ID.
 
 	// Browsers you care about for autoprefixing. Browserlist https://github.com/ai/browserslist
 	// The following list is set as per WordPress requirements. Though, Feel free to change.

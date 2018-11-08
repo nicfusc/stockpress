@@ -19,5 +19,6 @@ define( 'STOCKPRESS_INC', STOCKPRESS_PATH . 'includes/' );
 
 // Include files
 require_once STOCKPRESS_INC . 'core.php';
+require_once STOCKPRESS_INC . 'helpers.php';
 require_once STOCKPRESS_PATH . 'classes/class-iex-rest-client.php';
 require_once STOCKPRESS_PATH . 'shortcodes/inline-ticker/inline-ticker-shortcode.php';

@@ -1,7 +1,10 @@
 # StockPress
-------------
 
-```Still in development. Do not use```
+```
+
+Still in development. Do not use
+
+```
 
 Contributors:      Nic Fusciardi
 Tags: 

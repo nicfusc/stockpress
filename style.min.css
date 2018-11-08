@@ -1,4 +1,7 @@
-.stockpress-tip{position:relative;display:inline-block;border-bottom:1px dotted black}
-.stockpress-tip .stockpress-tip-content{visibility:hidden;width:120px;background-color:#fff;color:#222;text-align:center;padding:5px 0;border:1px solid #999;border-top:4px solid #1e6abc;position:absolute;z-index:1;bottom:125%;left:50%;margin-left:-60px;opacity:0;-webkit-transition:opacity .3s;transition:opacity .3s}
+.stockpress-tip{position:relative;display:inline-block;border-bottom:1px dotted black;cursor:pointer}
+.stockpress-tip .stockpress-tip-content{visibility:hidden;min-width:200px;background-color:#fff;color:#222;text-align:center;padding:5px;border:1px solid #999;border-top:4px solid #1e6abc;position:absolute;z-index:1;bottom:125%;left:50%;margin-left:-100px;opacity:0;-webkit-transition:opacity .3s;transition:opacity .3s}
 .stockpress-tip .stockpress-tip-content::after{content:"";position:absolute;top:100%;left:50%;margin-left:-5px;border-width:5px;border-style:solid;border-color:#999 transparent transparent transparent}
-.stockpress-tip:hover .stockpress-tip-content{visibility:visible;opacity:1}
+.stockpress-tip .stockpress-tip-content .change-percent-positive{font-size:.857em;color:#008000}
+.stockpress-tip .stockpress-tip-content .change-percent-negative{font-size:.857em;color:red}
+.stockpress-tip .stockpress-tip-content .latest-time{font-size:.75em}
+.stockpress-tip:hover .stockpress-tip-content,.stockpress-tip:focus .stockpress-tip-content{visibility:visible;opacity:1}
